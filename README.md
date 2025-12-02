@@ -107,10 +107,22 @@ Chatbot/
 │   └── main.py                   # FastAPI backend application
 ├── frontend/
 │   └── index.html                # Dashboard UI
+├── analytics/
+│   ├── csv_analyzer.py           # CSV data analysis (retail & Walmart)
+│   └── multi_user_analysis.py    # Multi-user financial behavior analysis
+├── qa/
+│   └── validation_system.py      # QA/UAT validation for dashboard specs
+├── goals/
+│   └── goal_dashboard.py         # Goal dashboard with SLA tracking
+├── finbud/
+│   └── recommendation_engine.py  # FinBud recommendation engine
 ├── scripts/
-│   └── setup_database.py        # Database setup utility
+│   ├── setup_database.py        # Database setup utility
+│   └── generate_sample_data.py  # Sample data generator
 ├── requirements.txt              # Python dependencies
 ├── .env.example                 # Environment variables template
+├── retail_store_inventory.csv    # Retail inventory data
+├── Walmart.csv                   # Walmart sales data
 └── README.md                    # This file
 ```
 
