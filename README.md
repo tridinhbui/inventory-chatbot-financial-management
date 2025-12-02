@@ -37,11 +37,29 @@ An AI-driven personal finance analytics platform built with SQL, Amazon Redshift
 
 ## 🚀 Getting Started
 
+### Quick Start (Run App)
+
+**Easiest way to run:**
+```bash
+python3 run_app.py
+```
+
+This will:
+- Check and install dependencies
+- Start backend API on port 8000
+- Start frontend server on port 8080
+- Open browser automatically
+
+**Access:**
+- Frontend: http://localhost:8080
+- API: http://localhost:8000
+- API Docs: http://localhost:8000/docs
+
 ### Prerequisites
 
 - Python 3.8+
-- Amazon RDS MSSQL instance
-- Amazon Redshift cluster
+- Amazon RDS MSSQL instance (optional for testing)
+- Amazon Redshift cluster (optional for testing)
 - ODBC Driver 17 for SQL Server (for RDS connection)
 
 ### Installation
